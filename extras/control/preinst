@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+if [ -f /etc/init.d/S92node-red ]; then
+    /etc/init.d/S92node-red stop
+fi
+
+exit 0
+
